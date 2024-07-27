@@ -18,7 +18,7 @@ const questions = [
     // Description
     {
         // since this is the default, lets not include it anymore
-        name: "desctiption",
+        name: "description",
         message: "What is the 'Description' of your project: "
 
     },
