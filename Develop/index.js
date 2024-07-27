@@ -52,11 +52,7 @@ const questions = [
         name: "tests",
         message: "Please enter the testing process of your project: "
     },
-    // for questions, we are going to ask for your github and email
-    {
-        name: "email",
-        message: "Enter your email: "
-    },
+    // for questions, we are going to ask for your github
     {
         name: "github",
         message: "Enter your GitHub username: "
