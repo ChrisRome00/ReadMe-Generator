@@ -71,7 +71,14 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 function init() {
-
+    inquirer
+        .prompt(questions)
+            .then((response) => {
+                // for file name, lets create a variable initialize a README.md file
+                const fileName = "README.md";
+                // Now lets write to the file passing in the responses to the questions
+                writeToFile(fileName, response);
+            })
 
 }
 
