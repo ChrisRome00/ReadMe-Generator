@@ -38,7 +38,7 @@ const questions = [
         // Because we want the user to choose a lisence, we need to have a different input that allows one choice
         type: 'list',
         // Now we need to provide the choices to pick from (for this use top 5)
-        choices: ["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause"],
+        choices: ["MIT", "GPLv2", "Apache 2.0", "GPLv3", "BSD 3-clause"],
         name: "license",
         message: "What license do you want to include in your project: "
     },
