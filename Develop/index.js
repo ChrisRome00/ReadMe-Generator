@@ -26,7 +26,7 @@ const questions = [
     // Installation
     {
         name: "installation",
-        message: "Plese enter how we are going to install the project: "
+        message: "Please enter how we are going to install the project: "
     }, 
     // Usage
     {
